@@ -1,17 +1,14 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function NavBar(props) {
   return (
     <>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
-        <div className="container-fluid">
-          {/* <Link className="navbar-brand" to="/">
+        <div className="container-fluid">   
+            <Link className="navbar-brand" to="/">
             <b>Skyline Utils</b>
-            <Link/> */} 
-            <a className="navbar-brand" href="#">
-            <b>Skyline Utils</b>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,20 +23,14 @@ export default function NavBar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                {/* <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </Link> */}
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                {/* <Link className="nav-link active" aria-current="page" to="/about">
+                <Link className="nav-link active" aria-current="page" to="/about">
                   About
-                </Link> */}
-                 <a className="nav-link active" aria-current="page" href="#">
-                  About
-                </a>
+                </Link>
               </li>
             </ul>
 

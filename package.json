@@ -1,6 +1,6 @@
 {
   "homepage": "https://skylinedude.github.io/skyline",
-  "name": "skyline",
+  "name":"skyline",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
